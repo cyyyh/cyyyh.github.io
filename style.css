@@ -1,6 +1,13 @@
 h1 {
-  background-color: papayawhip;
+  background-color: rgba(192, 161, 161, 0.609);
+  color: aliceblue;
 }
-p {
-  color: seashell;
+h3 {
+  color: rgb(151, 101, 101);
+}
+body {
+  background-color: rgba(188, 143, 143, 0.349);
+}
+ul {
+  color: rgb(156, 99, 99);
 }
