@@ -6,16 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <script>
+        $(document).ready(function() {
+            $("#hide1").click(function() {
+                $("h3").hide();
+            });
+        });
+    </script>
 </head>
-<body background="./image/sky.jpg">
-    <h1>Cc's Homepage</h1>
-    <p>Welcome!</p>
-    <ul style="color: mistyrose;">
-        <li>ROC</li>
-        <li>Female</li>
-        <li>Student</li>
-        <li>19y</li>
-    </ul>
-    <img width="400" height="400" src="./image/cc.jpg" alt="cc">
+<body>
+    <div class="container-fluid">
+        <h1>Cc's Homepage</h1>
+        <h3>Welcome to cc's homepage !</h3>
+        <button id="hide1">Ok!</button>
+        <ul>
+            <li>19y</li>
+            <li>02/18🎂</li>
+            <li>Female</li>
+            <li>Student</li>
+        </ul>
+        <img id="pic1" width="400" height="400" src="./image/cc.jpg" alt="cc">
+        <br>
+    </div>
 </body>
 </html>
